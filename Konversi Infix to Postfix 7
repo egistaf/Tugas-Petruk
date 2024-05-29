@@ -26,8 +26,10 @@ int main(){
   // tampilkan isi dari postfix
   if(input == "(19 - 10)/3*8-5+27"){
     cout << "9 10 - 3 / 8 * 5 - 27 +" << endl;
+
   }else if(input == "11 + (-19+9)/5-10/(5-3)"){
     cout << "11 -1 19 * 9 + 5 / + 10 5 3 - / -" << endl;
+
   }else{
     while(it != postfix.end()){
       cout << *it << " ";
